@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+.p {
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px
+}
+
+
+.tema text-white{ 
+
+font-family: 'Bebas Neue', cursive;
+
+}
+
+p{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.original{
+  background: white;
+  height: 100vh ;
+}
+
+.secondary{
+  background: #c8d6e5;
+  height: 100vh ;
+}
+
+.secondary-btn{
+  background: #c8d6e5;
+}
+
+.secondary-nav{
+  background: #8395a7;
+}
+
+.bg-principal{
+  background: #B5DECE;
+}
+
+.bg-secundary-principal{
+  background: #B2D8C1;
+}
+
+.bg-secundary{
+  background: rgb(221, 226, 222);
+}
+
+@media (max-width: 575.98px) {
+    body {
+        overflow: auto;
+        height: auto;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+html, body {
+  height: 100%;
+}
+
+.example_a {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #B5DECE;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.example_b {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #B5DECE;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
